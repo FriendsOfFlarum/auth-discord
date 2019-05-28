@@ -102,6 +102,6 @@ class DiscordAuthController implements RequestHandlerInterface
     {
         $hash = $user->getAvatarHash();
 
-        return isset($hash) ? "https://cdn.discordapp.com/avatars/{$user->getId()}/{$user->getAvatarHash()}.png" : null;
+        return isset($hash) ? "https://cdn.discordapp.com/avatars/{$user->getId()}/{$user->getAvatarHash()}.png" : '';
     }
 }
