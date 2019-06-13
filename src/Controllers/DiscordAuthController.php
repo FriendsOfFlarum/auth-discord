@@ -12,8 +12,8 @@
 namespace FoF\AuthDiscord\Controllers;
 
 use Flarum\Forum\Auth\Registration;
-use League\OAuth2\Client\Provider\AbstractProvider;
 use FoF\Extend\Controllers\AbstractOAuthController;
+use League\OAuth2\Client\Provider\AbstractProvider;
 use Wohali\OAuth2\Client\Provider\Discord;
 use Wohali\OAuth2\Client\Provider\DiscordResourceOwner;
 
