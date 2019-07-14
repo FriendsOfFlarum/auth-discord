@@ -79,6 +79,6 @@ class DiscordAuthController extends AbstractOAuthController
     {
         $hash = $user->getAvatarHash();
 
-        return isset($hash) ? "https://cdn.discordapp.com/avatars/{$user->getId()}/{$user->getAvatarHash()}.png" : '';
+        return isset($hash) ? "https://cdn.discordapp.com/avatars/{$user->getId()}/{$user->getAvatarHash()}.png" : "https://cdn.discordapp.com/embed/avatars/0.png";
     }
 }
