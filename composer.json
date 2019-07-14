@@ -9,7 +9,7 @@
   "require": {
     "flarum/core": "^0.1.0-beta.8",
     "wohali/oauth2-discord-new": "^1.0.0",
-    "fof/extend": "^0.1.0"
+    "fof/extend": ">=0.1.0"
   },
   "authors": [
     {
